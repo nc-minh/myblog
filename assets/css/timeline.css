@@ -1,0 +1,43 @@
+/* section--1 */
+.section--1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #314565;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section--1 .nameWrapper {
+    position: relative;
+}
+
+.section--1 .nameWrapper #bubble {
+    height: 100px;
+}
+
+.section--1 .nameWrapper .section--1__name {
+    font-size: 8rem;
+    height: 8rem;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+.section--1 p {
+    font-size: 2rem;
+    height: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.individual-bubble {
+    position: absolute;
+    border-radius: 100%;
+    bottom: 10px;
+    background-color: #fff;
+    z-index: 1;
+}
+
+/* section--1 end */
